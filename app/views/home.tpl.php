@@ -1,9 +1,25 @@
 <h1>Test home</h1>
 
-<?php foreach ($characterHome as $character) : ?>
-        
-    <h2 class="display-3 font-weight-bold mb-4"><?= $character->getName() ?></h2>
 
-    <em><?= $character->getType()->getName() ?></em>
 
-<?php endforeach ?> 
+<table>
+    <thead>
+        <th>Image</th>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Description</th>
+
+    </thead>
+    <tbody>
+
+        <?php foreach ($characterHome as $character) : ?>
+
+            <tr>
+                <td> <?= $character->getName() ?> </td>
+                <td> <?= $character->getType()->getName() ?> </td>
+            </tr>
+        <?php endforeach ?>
+
+
+    </tbody>
+</table>
