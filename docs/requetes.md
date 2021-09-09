@@ -14,3 +14,8 @@ SELECT * FROM `type`;
 ```
 
 # Page créateurs
+
+```SQL
+SELECT * FROM `creator` ORDER BY `page_order`;
+```
+

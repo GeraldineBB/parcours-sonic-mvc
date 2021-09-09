@@ -44,7 +44,7 @@ $router->map(
 
     [
         'controller' => '\\app\\controllers\\MainController',
-        'method'     => 'creators',
+        'method'     => 'creator',
     ],
     "main-creators"
 

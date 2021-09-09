@@ -28,7 +28,7 @@
                         <a href="<?= $router->generate( 'main-creators' ) ?>" class="nav-link">Les créateurs</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?= $router->generate( 'main-contact' ) ?>" class="nav-link">Nous contacter</a>
+                        <a href="<?= $router->generate( 'main-home' ) ?>" class="nav-link">Nous contacter</a>
                     </li>
             </div>
         </div>
