@@ -51,6 +51,21 @@ $router->map(
 );
 
 
+$router->map(
+    "GET",
+
+    "/contact",
+
+    [
+        'controller' => '\\app\\controllers\\MainController',
+        'method'     => 'contact',
+    ],
+    "main-contact"
+
+);
+
+
+
 // on veut maintenant trouver la bonne route en fonction de l'url donnée par le navigateur. $routeinfo renvoie 3 clés : un tableau avec les info de target, les paramètres (ex: id du character), et le nom de la route
 $routeInfo = $router->match();
 

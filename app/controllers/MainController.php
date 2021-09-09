@@ -37,6 +37,12 @@ class MainController
         $this->show('creators'); 
     }
 
+    public function contact() 
+    {
+        $this->show('contact'); 
+    }
+
+
     protected function show($viewName, $viewVars = [])
     {
 

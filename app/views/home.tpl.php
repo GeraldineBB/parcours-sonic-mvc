@@ -19,6 +19,7 @@
                 <td> <?= $character->getDescription() ?> </td>
 
             </tr>
+            
         <?php endforeach ?>
 
 
