@@ -71,7 +71,7 @@ class Character extends CoreModel
      */
     public function getPicture()
     {
-        return $this->picture;
+        return $_SERVER['BASE_URI'].'/assets/images/'.$this->picture;
     }
 
     /**
