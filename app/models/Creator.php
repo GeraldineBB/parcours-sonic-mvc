@@ -66,4 +66,44 @@ class Creator extends CoreModel
 
         return $this;
     }
+
+    /**
+     * Get the value of picture
+     */ 
+    public function getPicture()
+    {
+        return $_SERVER['BASE_URI'].'/assets/images/'.$this->picture;
+    }
+
+    /**
+     * Set the value of picture
+     *
+     * @return  self
+     */ 
+    public function setPicture($picture)
+    {
+        $this->picture = $picture;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of description
+     */ 
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * Set the value of description
+     *
+     * @return  self
+     */ 
+    public function setDescription($description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
 }

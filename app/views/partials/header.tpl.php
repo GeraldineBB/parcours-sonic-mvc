@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?= $_SERVER['BASE_URI']; ?>/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?= $_SERVER['BASE_URI']; ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= $_SERVER['BASE_URI']; ?>/assets/css/styles.css">
-    <title>Soni Project</title>
+    <title>Sonic Project</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-sticky navbar-airy navbar-light">
         <div class="container-fluid">
             <!-- Navbar Header  -->
-            <a href="index.html" class="navbar-brand">Soni</a>
+            <a href="<?= $router->generate( 'main-home' ) ?>" class="navbar-brand">Sonic</a>
             <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
             <!-- Navbar Collapse -->
             <div id="navbarCollapse" class="collapse navbar-collapse">
