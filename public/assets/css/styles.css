@@ -1,10 +1,21 @@
 h1 {
-    background-color: green;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    /* display: flex; */
+    margin: 0;
+    height: 100%;
+    padding: 0
 }
 
 .navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
 }
@@ -41,8 +52,13 @@ h1 {
 
 
 table {
-    width: 400px;
+    width: 800px;
     text-align: center;
+    margin: auto; 
+}
+
+img {
+    max-width: 70%;
 }
 
 tr,
@@ -54,4 +70,40 @@ th {
 thead th {
     font-weight: bold;
     border-bottom: 1px solid black;
+}
+
+
+
+input[type='number'],
+input[type='text'] {
+    border: 2px solid #457b9d;
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    padding: 1rem;
+    width: 50%;
+    font-size: 1rem;
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 2.3rem; 
+    margin-top: 5rem;
+}
+
+button {
+    border: none;
+    display: block;
+    padding: 1rem;
+    background: #e63946;
+    width: 40%;
+    border-radius: 5px;
+    color: #f1faee;
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+
+
 }

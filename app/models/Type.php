@@ -22,6 +22,11 @@ class Type extends CoreModel
     //  Methods
     // =========================================================
 
+    /**
+     * Find a type by its ID to make jointure between type and character
+     * @return self 
+     */
+
     public function find( $id )
     {
 
@@ -36,8 +41,12 @@ class Type extends CoreModel
       return $typeObject;
     }
     
-    
-    
+
+    /**
+     * Find all type
+     * @return self [] 
+     */
+
     
     public function findAll()
     {

@@ -12,6 +12,8 @@ class CoreModel
     //  Properties
     // =========================================================
 
+    // j'indique les propriétés communes à toutes les tables
+
     protected $id;
     protected $name;
     protected $created_at;
@@ -28,6 +30,7 @@ class CoreModel
     //  Getters & Setters
     // =========================================================
 
+    // j'intègre tous les getters et setters pour exploiter les données qui sont à la base "protected"
 
 
     /**

@@ -17,7 +17,7 @@
         <div class="container-fluid">
             <!-- Navbar Header  -->
             <a href="<?= $router->generate( 'main-home' ) ?>" class="navbar-brand">Sonic</a>
-            <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
             <!-- Navbar Collapse -->
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="navbar-nav mx-auto">
@@ -28,7 +28,7 @@
                         <a href="<?= $router->generate( 'main-creators' ) ?>" class="nav-link">Les créateurs</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?= $router->generate( 'main-home' ) ?>" class="nav-link">Nous contacter</a>
+                        <a href="<?= $router->generate( 'main-contact' ) ?>" class="nav-link">Nous contacter</a>
                     </li>
             </div>
         </div>

@@ -12,6 +12,7 @@ class Character extends CoreModel
     //  Properties
     // =========================================================
 
+    // j'indique les propriétés spécifiques à la table Character
     protected $description;
     protected $picture;
 
@@ -22,6 +23,12 @@ class Character extends CoreModel
     // =========================================================
     //  Methods
     // =========================================================
+
+
+    /**
+     * Find all characters
+     * @return self [] 
+     */
 
     public function findAll()
     {
@@ -45,6 +52,7 @@ class Character extends CoreModel
     //  Getters & Setters
     // =========================================================
 
+    // j'intègre tous les getters et setters pour exploiter les données qui sont à la base "protected"
 
     /**
      * Get the value of description
@@ -71,6 +79,7 @@ class Character extends CoreModel
      */
     public function getPicture()
     {
+        // afin d'éviter les erreurs je mets le bon lien directement dans le get
         return $_SERVER['BASE_URI'].'/assets/images/'.$this->picture;
     }
 
