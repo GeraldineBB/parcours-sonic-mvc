@@ -80,7 +80,7 @@ class Character extends CoreModel
     public function getPicture()
     {
         // afin d'éviter les erreurs je mets le bon lien directement dans le get
-        return $_SERVER['BASE_URI'].'/assets/images/'.$this->picture;
+        return $_SERVER['BASE_URI'] . '/assets/images/' . $this->picture;
     }
 
     /**
